@@ -240,7 +240,7 @@ function App() {
           .mobile-header { 
             display: flex; justify-content: center; align-items: center; 
             background: var(--surface-ivory);
-            color: var(--text-primary); padding: 5px; position: sticky; top: 0; z-index: 1100; 
+            color: var(--text-primary); padding: 15px; position: sticky; top: 0; z-index: 1100; 
             border-bottom: 1px solid var(--border-color);
           }
           .app-title { font-weight: 700; font-size: 1.3rem; }
@@ -272,7 +272,12 @@ function App() {
           }
           .bottom-nav-btn .icon { font-size: 1.4rem; line-height: 1; }
           .bottom-nav-btn.active { color: var(--primary-accent); }
-          .overview-title { font-size: 2.5rem; }
+          
+          /* START: Change for Mobile View */
+          .overview-title {
+            display: none;
+          }
+          /* END: Change for Mobile View */
         }
       `}</style>
     </div>
