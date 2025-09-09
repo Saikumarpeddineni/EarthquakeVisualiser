@@ -1,7 +1,3 @@
-Of course, here is a complete README file for your application.
-
------
-
 # Earthquake Explorer 🌍
 
 An interactive and responsive web application for visualizing, tracking, and learning about global earthquake activity in real-time. This application fetches live data from the USGS and presents it through an intuitive and modern user interface.
