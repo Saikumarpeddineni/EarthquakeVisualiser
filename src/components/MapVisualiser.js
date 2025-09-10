@@ -48,7 +48,7 @@ function App() {
     <div style={{ height: '100vh', width: '100%', display: 'flex', flexDirection: 'column' }}>
       
       <div style={{
-        position: 'absolute', top: 50, left: '50%', transform: 'translateX(-50%)',
+        position: 'absolute', marginTop: 50, left: '50%', transform: 'translateX(-50%)',
         zIndex: 1000, background: 'white', padding: '15px', borderRadius: '8px',
         boxShadow: '0 2px 6px rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', gap: '15px',
         flexWrap: 'wrap'
